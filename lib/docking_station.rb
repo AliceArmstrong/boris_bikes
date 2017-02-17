@@ -28,6 +28,7 @@ DEFAULT_CAPACITY = 20
     @num_bikes << bike
     else @broken_bikes << bike
   end
+end
 
   private
   def full?
@@ -41,5 +42,5 @@ DEFAULT_CAPACITY = 20
   def broken_bikes_report
   p "We have the following broken bikes:"
   p @broken_bikes
-
+end
 end
